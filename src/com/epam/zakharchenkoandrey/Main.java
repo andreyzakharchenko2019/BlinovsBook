@@ -18,6 +18,7 @@ public class Main {
         int kLatter = Integer.parseInt(reader.readLine());
         System.out.print("Enter the desired letter: ");
         String needLatter = reader.readLine();
+        reader.close();
 
         if (kLatter > someSentence.length()) {
             System.out.println("Number is greater than the length of the string");
